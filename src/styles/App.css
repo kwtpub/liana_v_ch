@@ -1,0 +1,46 @@
+.Pages {
+    display: flex;
+    flex-direction: column;
+}
+.containerMain {
+    display: flex;
+}
+@media(max-width: 799px){
+    .containerMain {
+        display: block;
+    }
+}
+.containerServise {
+    display: inline-flex;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+  }
+
+
+@media (max-width:799px) {
+    .containerServise {
+        width: 100%;
+        user-select: none;
+    }
+}
+
+
+@font-face {
+    font-family: "GT Sectra Italic"; 
+    src: url("../../public/__fonts/GT-Sectra-Italic.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "GT Sectra"; 
+    src: url("../../public/__fonts/GT-Sectra.ttf") format("truetype"); 
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital@0;1&display=swap');

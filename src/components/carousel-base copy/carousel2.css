@@ -1,0 +1,30 @@
+.main-container1 {
+    width: 450px;
+    height: 150px;
+  
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .window1 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .all-pages-container1 {
+    height: 100%;
+    display: flex;
+    transition: translate;
+    transition-property: transform;
+    transition-duration: 300ms;
+    transition-timing-function: ease-in-out;
+    text-align: center;
+  }
+  
+  .arrow1 {
+    cursor: pointer;
+  }
+  
