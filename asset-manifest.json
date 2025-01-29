@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/liana_v_ch/static/css/main.56da2ea0.css",
-    "main.js": "/liana_v_ch/static/js/main.a34ac087.js",
+    "main.js": "/liana_v_ch/static/js/main.216ccc5f.js",
     "static/media/ModelGirl.webp": "/liana_v_ch/static/media/ModelGirl.287f3b0b386905f1e7be.webp",
     "static/media/GT-Sectra-Italic.ttf": "/liana_v_ch/static/media/GT-Sectra-Italic.74e30d2021c2881ff00f.ttf",
     "static/media/GT-Sectra.ttf": "/liana_v_ch/static/media/GT-Sectra.bda190f255d043a2b4cc.ttf",
     "index.html": "/liana_v_ch/index.html",
     "static/media/Arrow.svg": "/liana_v_ch/static/media/Arrow.a4d0b01181a235ed2b47.svg",
     "main.56da2ea0.css.map": "/liana_v_ch/static/css/main.56da2ea0.css.map",
-    "main.a34ac087.js.map": "/liana_v_ch/static/js/main.a34ac087.js.map"
+    "main.216ccc5f.js.map": "/liana_v_ch/static/js/main.216ccc5f.js.map"
   },
   "entrypoints": [
     "static/css/main.56da2ea0.css",
-    "static/js/main.a34ac087.js"
+    "static/js/main.216ccc5f.js"
   ]
 }
