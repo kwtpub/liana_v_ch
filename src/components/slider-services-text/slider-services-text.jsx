@@ -19,12 +19,10 @@ const SliderServicesText = () => {
 ТЕНДЕНЦИЙ И ТРАТИТЬ МИНИМУМ ВРЕМЕНИ И ДЕНЕГ НА ШОППИНГ."</h2>
 <h2 className='slider-services-text__text-container-description'>“ВЫ ХОТИТЕ БЫТЬ В КУРСЕ ВСЕХ АКТУАЛЬНЫХ
 ТЕНДЕНЦИЙ И ТРАТИТЬ МИНИМУМ ВРЕМЕНИ И ДЕНЕГ НА ШОППИНГ2."</h2>
-        </Carousel2>
+                </Carousel2>
             </div>
 
-            <div className="slider-services-text__arrow-container">
 
-            </div>
 
         </div>
         {/* <div className='UnderLine-2'>

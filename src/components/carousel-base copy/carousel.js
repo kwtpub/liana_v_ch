@@ -2,7 +2,7 @@ import { useEffect, useState, Children, cloneElement } from 'react'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
 import './carousel2.css'
 
-const PAGE_WIDTH = 450
+const PAGE_WIDTH = 401
 
 export const Carousel2 = ({ children }) => {
   const [pages, setPages] = useState([])
@@ -33,7 +33,7 @@ export const Carousel2 = ({ children }) => {
           style: {
             minWidth: `${PAGE_WIDTH}px`,
             maxWidth: `${PAGE_WIDTH}px`,
-            height: '100%',
+            height: `auto`
           },
         })
       })
