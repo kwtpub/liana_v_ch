@@ -8,7 +8,7 @@ const StyledWebsitePreviewTextContent = styled.div`
     padding-right: ${props => props.paddingRight || '17px'};
     padding-bottom: ${props => props.paddingBottom || '0px'};
     flex-wrap: wrap;
-    text-align: left;
+    text-align: ${props => props.textAlign || 'left'};
     word-break: break-word;
     flex-direction: column;
     @media ${props => props.theme.media.phone} { 

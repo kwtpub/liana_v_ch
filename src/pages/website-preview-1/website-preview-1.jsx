@@ -27,14 +27,14 @@ import WebsitePreviewTextContent from '../../components/containers/websitePrevie
 //     }
 // `
 
-const WebsitePreview1= (props) => {
+const WebsitePreview1= ({ titleColor,textAlign, color, ...props}) => {
 
     return (
         
         <WebsitePreviewContainer  {...props}>
-            <WebsitePreviewTextContent paddingLeft={'30px'} width={'35vw'}>          
-                        <Title>{props.titleText}</Title> 
-                        <Subtitle fontStyle={'normal'}>  {props.descriptionText}</Subtitle> 
+            <WebsitePreviewTextContent textAlign={textAlign}  paddingLeft={'30px'} width={'35vw'}>          
+                        <Title  color={titleColor}>{props.titleText}</Title> 
+                        <Subtitle color={color} fontStyle={'normal'}>  {props.descriptionText}</Subtitle> 
             </WebsitePreviewTextContent>
         </WebsitePreviewContainer>
         

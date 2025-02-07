@@ -7,15 +7,7 @@ const Menu = ({items, textMenu, open , setOpen, items2}) => {
         <div className={open ? 'menu active' : 'menu'} onClick={() => setOpen(!open)}>
             <div className="menu__content">
                     <ul>
-                        <Title marginBot={'0px'}color={'black'}>OUR SERVICE</Title>
                         {items.map(item =>
-                            <li>
-                                <a href={item.href}> {item.value} </a>
-                            </li>
-                        ) 
-                        
-                        }
-                        {items2.map(item =>
                             <li>
                                 <a href={item.href}> {item.value} </a>
                             </li>

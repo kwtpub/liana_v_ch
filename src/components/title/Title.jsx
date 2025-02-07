@@ -12,6 +12,10 @@ letter-spacing: 3px;
 padding: ${props => props.padding || "0px"};
 margin-bottom: ${props => props.marginBot || "32px"};
 word-wrap: break-word;
+
+height: ${props => props.height || 'auto'};
+width: ${props => props.width || 'auto'};
+
 @media ${"(min-width:1700px)"} {
     font-size: clamp(15px, 4em, );
 }
@@ -26,7 +30,7 @@ word-wrap: break-word;
 const Title = (props) => {
     return (
 
-        <StyledTitle {...props}/>
+        <a href={props.href}><StyledTitle {...props}/></a>
     );
 };
 export default Title;

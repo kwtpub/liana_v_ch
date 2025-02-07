@@ -50,8 +50,7 @@ const Header = () => {
     const[open, setOpen] = useState(false)
 
     const textMenu = [{text: "Произвольный текст лала я играю на гармошке у прохожих на видуу к сожаленью день рождения только раз в году"}]
-    const items = [{href: '/#/shoppingsupport', value:"Шопинг сопровождение", icon:"anchor"},{value:"Онлайн шопинг", href: '/#/onlineshoping', icon:"anchor"}, {value:"Разбор гардероба шопинг и коллажи", href: '/#/contact', icon:"anchor"}]
-    const items2 = [{href: '/#/about', value:"about", icon:"anchor"},{value:"contact", href: '/#/about', icon:"anchor"}]
+    const items = [{href: '/#/service', value:"Услуги", icon:"anchor"},{value:"Обо мне", href: '/#/about', icon:"anchor"}, {value:"Контакты", href: '/#/contact', icon:"anchor"}]
     const handleMenuClick = (event) => {
         event.preventDefault();
       };
@@ -66,7 +65,7 @@ const Header = () => {
                 </div>
 
                 <div className="header__navigarion-bar-button">
-                    <a href='/#/service'> <h2></h2></a>
+                    <a href='/#/service'> <h2>УСЛУГИ</h2></a>
                     <a href='/#/about'> <h2>ОБО МНЕ</h2></a>
                     <a href='/#/contact'><h2>КОНТАКТЫ</h2></a>
                 </div>
@@ -85,7 +84,7 @@ const Header = () => {
 
         </header>
 
-        <Menu items2={items2} items={items} textMenu={textMenu} open={open} setOpen={setOpen} />
+        <Menu  items={items} textMenu={textMenu} open={open} setOpen={setOpen} />
         <span className='header__lower-border'></span>
 
         </div>
