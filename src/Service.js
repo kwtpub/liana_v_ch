@@ -29,8 +29,8 @@ const Service = (props) => {
             <Header/>
             <WebsitePreview1 paddingLeftMob={'0px'} paddingRightMob={'0px'} minHeightMob={'680px'} minHeight={'680px'} padding={'0px'}  titleColor={'white'} widthPh={'99vw'} width={'99vw'} heightMob={'50vh'} height={'30vh'} textAlign={'center'} color={'white'} bg={image} titleText={titleText} descriptionText={txtDes}/>
             <StyledService>
-                <ServiceLink text={'Онлайн шопинг'} href={'/'} bg={serviceImage}/>
-                <ServiceLink text={'Шопинг сопровождение'} href={'/'} bg={serviceImage2}/>
+                <ServiceLink text={'Онлайн шопинг'} href={'/#/onlineshoping'} bg={serviceImage}/>
+                <ServiceLink text={'Шопинг сопровождение'} href={'/#/shoppingsuppot'} bg={serviceImage2}/>
                 <ServiceLink text={'Разбор гардероба'} href={'/'} bg={serviceImage3}/>
             </StyledService>
             <Footer/>

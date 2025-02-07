@@ -8,7 +8,7 @@ const StyledServiceLink = styled.div`
     background-image: url(${props => props.bg} );
     background-color: gray;
     display: flex;
-
+    position: relative;
     align-items: center;
     justify-content: center;
     background-position: center;
@@ -19,10 +19,20 @@ const StyledServiceLink = styled.div`
         width: 99vw;
         height: 25vh;
     }
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: rgba(0,0,0,.3);
+        z-index: 2;
+    }
+    
 `
 const StyledServiceLinkText = styled.a`
     color:${props => props.color || '#E54424'};
-
 font-size: calc(${props => props.fontSize || '4px'} + 8 * (100vw - 320px) / 880);
 font-family: "Karla";
 font-weight: 200;
@@ -37,14 +47,13 @@ width: 100%;
 display: flex;
 align-items: center;
 justify-content: center;
-
-
+z-index: 1000;
 
 @media ${"(min-width:1700px)"} {
     font-size: clamp(12px, 12px, );
 }
 @media ${"(max-width:900px)"} {
-    filter: brightness(95%);
+
     font-size: clamp(${props => props.fontSizeMob || "12px"}, ${props => props.fontSizeTable || "2em"}, ${props => props.fontSizeDes || "14px"}) ;
 }
 @media ${"(max-width:600px)"} { 
@@ -55,6 +64,8 @@ justify-content: center;
 &:hover {
     color: rgb(255, 255, 255,0.8)
 }
+
+
 `
 
 
