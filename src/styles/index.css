@@ -1,1 +1,13 @@
-@import url('../../public/__fonts/GtSectra/GT-Sectra-Regular.woff2');
+@font-face {
+    font-family: 'GT Sectra Regular';
+    src: url('/__fonts/GtSectra/GT-Sectra-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'GT Sectra Bold';
+    src: url('/__fonts/GtSectra/GT-Sectra-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+  }

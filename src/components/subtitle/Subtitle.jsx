@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 const StyledSubtitle = styled.h1`
     font-size: calc(${props => props.fontSize || '30px'} + 8 * (100vw - 320px) / 880);
-    font-family: "GT Sectra",  serif;
+    font-family: "GT Sectra Regular";
     font-style: ${props => props.fontStyle || 'italic'};
     font-weight: 200;
     line-height: 1.4em;
