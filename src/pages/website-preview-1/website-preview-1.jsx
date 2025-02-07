@@ -32,7 +32,7 @@ const WebsitePreview1= ({paddingLeftMob, paddingRightMob , titleColor,textAlign,
     return (
         
         <WebsitePreviewContainer  {...props}>
-            <WebsitePreviewTextContent paddingRightMob={paddingRightMob }  paddingLeftMob={paddingLeftMob} textAlign={textAlign}  paddingLeft={ props.padding || '30px'} widthPh={props.widthPh} width={ props.width ||'35vw'}>          
+            <WebsitePreviewTextContent paddingRightMob={paddingRightMob}  paddingLeftMob={paddingLeftMob} textAlign={textAlign}  paddingLeft={ props.padding || '30px'} widthPh={props.widthPh} width={ props.width ||'35vw'}>          
                         <Title  color={titleColor}>{props.titleText}</Title> 
                         <Subtitle color={color} fontStyle={'normal'}>  {props.descriptionText}</Subtitle> 
             </WebsitePreviewTextContent>
