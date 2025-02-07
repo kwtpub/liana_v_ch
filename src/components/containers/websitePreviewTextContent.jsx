@@ -13,12 +13,10 @@ const StyledWebsitePreviewTextContent = styled.div`
     flex-direction: column;
     @media ${props => props.theme.media.phone} { 
         padding-top: ${props => props.paddingTopMob};
-        padding-left: ${props => props.paddingLeftMob};
-        padding-right: ${props => props.paddingRightLeftMob };
+        padding-left: ${props => props.paddingLeftMob || '10vw'};
+        padding-right: ${props => props.paddingRightMob || '15vw' };
         padding-bottom: ${props => props.paddingBottomLeftMob};
         width: ${props => props.widthPh || '70vw'};
-        padding-left: 10vw;
-        padding-right: 15vw;
     
     }
 `

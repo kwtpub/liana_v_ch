@@ -8,11 +8,12 @@ const StyledServiceLink = styled.div`
     background-image: url(${props => props.bg} );
     background-color: gray;
     display: flex;
+    
     align-items: center;
     justify-content: center;
     background-position: center;
     background-size: cover;
-    margin: 8px;
+    margin: 0.5vw;
 `
 
 

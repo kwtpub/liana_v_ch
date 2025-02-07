@@ -8,7 +8,8 @@ import ServiceLink from './components/serviceLink/ServiceLink';
 
 import serviceImage from './img/img5.jpg'
 const StyledService = styled.div`
-
+    display: flex;
+    flex-direction: row;
 
 `
 const txtDes = 'Услуги'
@@ -21,8 +22,12 @@ const Service = (props) => {
     return (
         <>
             <Header/>
-            <WebsitePreview1 titleColor={'white'} width={'100vw'} height={'60vh'} textAlign={'left'} color={'white'} bg={image} titleText={titleText} descriptionText={txtDes}/>
-            <ServiceLink href={'/'} bg={serviceImage}/>
+            <WebsitePreview1 padding={'0px'}  titleColor={'white'} widthPh={'99vw'} width={'99vw'} height={'60vh'} textAlign={'center'} color={'white'} bg={image} titleText={titleText} descriptionText={txtDes}/>
+            <StyledService>
+                <ServiceLink href={'/'} bg={serviceImage}/>
+                <ServiceLink href={'/'} bg={serviceImage}/>
+                <ServiceLink href={'/'} bg={serviceImage}/>
+            </StyledService>
             <Footer/>
         </>
     );
