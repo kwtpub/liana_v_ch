@@ -27,7 +27,7 @@ export const Carousel3 = ({children, infinite}) => {
                 
                 let newOffset = currentOffset - PAGE_WIDTH;
 
-                const maxOffset = -(PAGE_WIDTH * (pages.length - 1 ))
+                const maxOffset = -(PAGE_WIDTH * (pages.length - 1  ))
 
 
                 console.log(newOffset)
