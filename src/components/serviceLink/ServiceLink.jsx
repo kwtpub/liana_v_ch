@@ -3,8 +3,8 @@ import Title from '../title/Title';
 
 
 const StyledServiceLink = styled.div`
-    height: 33.33vh;
-    width: 33.33vw;
+    height: 32.3vh;
+    width: 32.3vw;
     background-image: url(${props => props.bg} );
     background-color: gray;
     display: flex;
@@ -14,9 +14,8 @@ const StyledServiceLink = styled.div`
     background-position: center;
     background-size: cover;
     margin: 0.5vw;
-
     @media(max-width:799px) {
-        width: 99vw;
+        width: 48.5vw;
         height: 25vh;
     }
     &:after {
