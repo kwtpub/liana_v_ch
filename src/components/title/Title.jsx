@@ -12,7 +12,7 @@ letter-spacing: 3px;
 padding: ${props => props.padding || "0px"};
 margin-bottom: ${props => props.marginBot || "32px"};
 word-wrap: break-word;
-display: ${props => props.display};
+display: ${props => props.display || 'inline'}; 
 height: ${props => props.height || 'auto'};
 width: ${props => props.width || 'auto'};
 
