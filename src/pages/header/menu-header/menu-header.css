@@ -1,0 +1,78 @@
+.menu {
+    background-color: #F0EBE4;
+    height: 45vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    left: 0;
+    display: flex;
+    align-items: center;
+    transform: translateY(-100%);
+    transition: all 0.4s;
+}
+.menu.active {
+    transform: translateY(0);
+    position: fixed;
+}
+
+ul li a {
+    color: #E54424;
+    font-family: 'Karla';
+    text-decoration:underline;
+    font-size: calc(9px + 8 * (100vw - 320px) / 880);
+    line-height: 2px;
+    letter-spacing: 3px;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 20px 0;
+}
+.menu__content {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.menu__logo {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom:1px solid black;
+    border-top: 1px solid black;
+    flex-wrap: wrap;
+    margin-right: 15px;
+}
+
+.menu__logo h1 {
+    font-family: "GT Sectra";
+    padding: 0;
+    margin: 0;
+    font-size:calc(15px + 8 * (100vw - 320px) / 880);
+    line-height: 1.4em;
+    letter-spacing: 3px;
+    font-weight: 200;
+
+}
+
+.menu__logo p {
+    font-family: "Karla";
+    font-weight: 100;
+    text-align: center;
+    font-size: calc(10px + 8 * (100vw - 320px) / 880);
+    line-height: 1.2em;
+    letter-spacing: 3px;
+    margin-bottom: 0;
+}
+
+@media(max-width:799px) {
+    ul li {
+        list-style-type: none;
+        margin: 10px 0;
+    }
+}

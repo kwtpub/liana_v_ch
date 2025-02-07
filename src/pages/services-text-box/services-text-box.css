@@ -1,0 +1,94 @@
+
+.services-text-box__text-container {
+
+    width: 100vw;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: baseline;
+    overflow-x: hidden;
+}
+.services-text-box__text-container h1 {
+    font-size: calc(22px + 8 * (100vw - 320px) / 880);
+    font-family: "Noto Serif Display";
+    font-weight: 100;
+    line-height: 1.4em;
+    letter-spacing: 3px;
+    overflow-x: hidden;
+}
+.services-text-box__text-container h2 {
+    font-size: calc(7px + 8 * (100vw - 320px) / 880);
+    font-family: "Karla";
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 3px;
+    color: black ;
+    margin-top: 23px;
+    overflow-x: hidden;
+}
+.services-text-box__text-container-position {
+    width: calc(300px + 400 * (100vw - 320px) / 880 );
+}
+.services-text-box-underline {
+    position: relative;
+    height: 1px;
+    width: 90%;
+    color: black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4vh;
+    margin-bottom: 3vh;
+}
+.services-text-box-vertical-line {
+    position: absolute;
+    height: 1px;
+    width: 10vh;
+    color: black;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    transform:rotateZ(90deg) translateX(5vh);
+    z-index: 99;
+
+}
+.services-text-box__main-container {
+    display:inline;
+    overflow-x: hidden;
+}
+
+@media(max-width: 799px) {
+    .services-text-box__text-container h1 {
+        font-size: calc(20px + 8 * (100vw - 320px) / 880);
+
+    }
+    .services-text-box__text-container h2 {
+        font-size: calc(8px + 8 * (100vw - 320px) / 880);
+    }
+    .services-text-box-vertical-line {
+        position: absolute;
+        height: 1px;
+        width: 8vh;
+        color: black;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        transform:rotateZ(90deg) translateX(4vh);
+        z-index: 99;
+    
+    }
+}
+
+@media(max-width: 599px) { 
+    .services-text-box__text-container h1 {
+        font-size: calc(18px + 8 * (100vw - 320px) / 880);
+
+    }
+
+}

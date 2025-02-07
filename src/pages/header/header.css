@@ -1,0 +1,109 @@
+header {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: inherit;
+    padding-top: 1.4vw;
+    padding-bottom: 1.4vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+    max-height: 200px;
+    z-index: 50;
+
+}
+.header {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    line-height: 1;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+@media(max-width: 799px ) {
+   header {
+    padding: 6vw;
+   } 
+}
+
+.header__navigarion-bar h1 {
+    font-family: "GT Sectra";
+    font-weight: 200;
+    padding: 0;
+    margin: 0;
+    font-size:calc(20px + 8 * (100vw - 320px) / 880);
+    line-height: 1.4em;
+    letter-spacing: 3px;
+} 
+
+.header__navigarion-bar h2 {
+    font-family: "Karla";
+    font-weight: 300;
+    margin: 10px;
+    font-size:calc( 10px + 1 * (100vw - 320px) / 880);
+}
+
+.header__navigarion-bar {
+    display:flex;
+    justify-content: space-between;
+    width: 96%;
+    align-items: center;
+    flex-grow: 0;
+}
+
+
+
+.header__navigarion-bar-button {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-grow: 0;
+}
+
+.header__lower-border {
+    
+    align-items: flex-end;
+    width: 90%;
+    height: 1px;
+    background-color: black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.header__styledBurger-section {
+    height: 37px;
+    width: 40px;
+    display: flex;
+    position: relative;
+    z-index: 100;
+    right: -20px;
+}
+.header__styledBurger-fixed-position {
+    position: fixed;
+    height: 37px;
+    width: 40px;
+    display: flex;
+}
+
+@media(max-width: 799px) {
+    .header__styledBurger-section {
+        height: 37px;
+        width: 40px;
+    }
+    .header__styledBurger-btn {
+        cursor: pointer;
+        display: flex;
+        position: relative;
+        width: 50px;
+        height: 3.9vh;
+    }
+    .header__navigarion-bar h2 {
+        display: none;
+    }
+}
+
+
+
+

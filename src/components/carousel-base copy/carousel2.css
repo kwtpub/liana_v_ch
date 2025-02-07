@@ -1,0 +1,65 @@
+
+  .main-container1 {
+
+      width: 99.9vw;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      aspect-ratio: 1/0.3;
+      flex-direction: column;
+  }
+  .window1 {
+      height: 50%;
+      width: 70vw;
+      overflow: hidden;
+  }
+  
+  .all-pages-container1 {
+      height: 100%;
+      width: 200%;
+      display: flex;
+      transition: translate;
+      transition-property: transform;
+      transition-duration: 300ms;
+      transition-timing-function: ease-in-out;
+      align-items: center;
+  }
+  .arrow3 {
+      
+      display: flex;
+      height: 8px;
+      width: 40px;
+      overflow: hidden;
+      margin-right:10px;
+      margin-left: 10px;
+      background-image: url(../../../public/__photos/Arrow.svg) ;
+  }
+  .arrow4 {
+      transform: rotateY(180deg);
+      cursor: pointer;
+      display: flex;
+      height: 8px;
+      width: 40px;
+      margin-right: 10px;
+      overflow: hidden;
+      margin-left: 10px;
+      background-image: url(../../../public/__photos/Arrow.svg) ;
+  }
+  .arrow-container {
+    display: flex;
+  }
+
+@media(max-width:799px) {
+    .arrow-container {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+}
+
+@media(max-width:500px) {
+    .arrow-container {
+        margin-top: 50px;
+        margin-bottom: 20px;
+      }
+}

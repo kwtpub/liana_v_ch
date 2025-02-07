@@ -1,0 +1,122 @@
+:root {
+    --link-width: -20%;
+}
+
+.Footer__main-container {
+    height: 37vh;
+    background-color: #1F1F1F;
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 450px;
+    flex-flow: column;
+}
+
+.Footer__text-container {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 400px;
+    width: 30%;
+    border-left:1px solid white;
+    border-right:1px solid white ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Footer__line-2-mob { 
+    display: none;
+}
+
+.Footer__line-1 {
+    width: 90%;
+    height: 1px;
+
+    background-color: white;
+
+    margin: 7px auto 7px auto;
+}
+
+.Footer__line-2 {
+    height: 1px;
+    width: 90%;
+    display: flex;
+    background-color: white;
+
+    margin: 7px auto 7px auto;
+}
+
+
+.Footer-title {
+    font-size: calc(24px + 8 * (100vw - 320px) / 880);
+    line-height: 1.4em;
+    letter-spacing: 3px;
+
+    font-family: "EB Garamond";
+    font-weight: 500;
+
+    margin-top: 20px;
+}
+.Footer-link {
+    text-decoration: underline;
+    font-size: calc(9px + 8 * (100vw - 320px) / 880);
+
+    letter-spacing: 3px;
+
+    line-height: 2.7em;
+
+    font-family: "Karla";
+    font-weight: 300;
+    color: white ;
+
+}
+.link-container {
+    text-align: center;
+    
+    margin-top: 30px;
+}
+
+@media (max-width:799px) {
+    .Footer__text-container {
+        border: 0px solid white;
+    }
+
+
+    .Footer__line-1 {
+        width: 90%;
+        height: 2px;
+
+        
+        background-color: white;
+        
+        margin: 7px auto 0px auto;
+    }
+    
+    .Footer__line-2 {
+        height: 1px;
+        width: 90%;
+        display: none;
+        background-color: white;
+        vertical-align: top;
+        margin: 7px auto 7px auto;
+    }
+    .Footer__line-2-mob {
+
+        height: 2px;
+        width: 300%;
+        margin-top: 20px;
+        display: flex;
+        background-color: white;
+
+        
+    }
+
+    .Footer-title  {
+        font-size: calc(20px + 8 * (100vw - 320px) / 880);
+        color: #FFC7C7;
+    }
+    .Footer-link {
+        color: #FFC7C7;
+    }
+}

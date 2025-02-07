@@ -1,0 +1,127 @@
+.slider-services-text__main-container {
+    display: flex;
+
+
+    flex-direction: column;
+
+    width:100vw;
+    height: 100%;
+    
+}
+
+
+.slider-services-text__text-container-title {
+    font-size: calc(24px + 8 * (100vw - 320px) / 880);
+    line-height: 1.4em;
+    letter-spacing: 3px;
+
+    font-family: "Noto Serif Display";
+    font-weight: 100;
+
+
+    display: inline-flex;
+    margin-top: 2vw;
+}
+
+
+
+.slider-services-text__text-container-description {
+    font-size: calc(8px + 8 * (100vw - 320px) / 880);
+    line-height: 1.4em;
+    letter-spacing: 3px;
+
+    font-family: "Karla";
+    font-weight: 500;
+    color: black ;
+    
+    height: 30%;
+    justify-content: center;
+    display: inline-flex;
+
+
+
+}
+.slider-services-text__text-container {
+    text-align: center;
+    align-items: center;
+
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-services-text__arrow-container {
+    margin-bottom: 2vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 9vh;
+    font-size: large;
+    
+}
+
+.slider-services-text__underLine {
+    position: relative;
+    height: 1px;
+    width: 90%;
+    color: black;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3vh;
+}
+.slider-services-text__uvertical-line {
+    position: absolute;
+    height: 1px;
+    width: 10vh;
+    color: black;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    transform:rotateZ(-90deg) translateX(5vh);
+
+}
+.arrow-one {
+    margin-right: 10px;
+    cursor: pointer;
+}
+.arrow-two {
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+
+
+@media(max-width: 799px) { 
+    .slider-services-text__uvertical-line {
+        position: absolute;
+        height: 1px;
+        width: 5vh;
+        color: black;
+        background-color: black;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        transform:rotateZ(-90deg) translateX(2.5vh);
+    }
+
+
+    .slider-services-text__text-container-title {
+        font-size: calc(18px + 8 * (100vw - 320px) / 880);
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width: 500px) {
+
+    .slider-services-text__text-container-title {
+        font-size: calc(18px + 8 * (100vw - 320px) / 880);
+    }
+
+}

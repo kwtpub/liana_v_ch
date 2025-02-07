@@ -1,0 +1,71 @@
+/* * {
+    padding: 0;
+    margin: 0;
+}
+
+.WebsitePreviewContainer {
+    width: 48vw;
+    height: 100vh;
+    min-height: 980px;
+    max-height: 1300px;
+    background-size: cover;
+    background-position: center;
+    margin: 0.5vw;
+    display: inline-block;
+    overflow: hidden;
+} 
+
+
+
+
+.website-preview-1__content-text h1 {
+    font-size: calc(30px + 8 * (100vw - 320px) / 880);
+    font-family: "Noto Serif Display";
+    font-weight: 100;
+    line-height: 1.4em;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+.website-preview-1__content-text h2 {
+    font-size: calc(8px + 8 * (100vw - 320px) / 880);
+    font-family: "Karla";
+    font-weight: 500;
+    line-height: 1.4em;
+    letter-spacing: 3px;
+    color: #E54424 ;
+    overflow: hidden;
+
+}
+
+.website-preview-1__content-text {
+    width: 35vw;
+    display: flex;
+    padding-right: 2vw;  
+    padding-top: 190px;
+    padding-left: 10vw;  
+    flex-wrap: wrap;
+    text-align: left;
+
+}
+@media(max-width: 799px) {
+
+    .website-preview-1__content-text { 
+        width: 70vw;
+        padding-left: 10vw;
+        padding-right: 15vw;  
+        padding-top: 10px;
+        margin-left: 40px;
+
+    }
+    .website-preview-1__content{
+        width: 100vw;
+     }
+     .website-preview-1__content-text h1 {
+        font-size: calc(25px + 4 * (100vh - 320px) / 880);
+        overflow: hidden;
+    }
+    .website-preview-1__content-text {
+        font-size: calc(12px + 8 * (100vw - 320px) / 880);
+        overflow: hidden;
+    }
+} */

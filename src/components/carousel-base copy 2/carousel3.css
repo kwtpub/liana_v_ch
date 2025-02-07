@@ -1,0 +1,85 @@
+.arrow2 {
+    cursor: pointer;
+    display: none;
+}
+.arrow1 {
+    cursor: pointer;
+    display: none;
+
+}
+.main-container3 {
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+
+}
+.all-pages-container3 {
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+.window3 {
+    width: 100%;
+}
+
+@media(max-width:799px) {
+    .main-container3 {
+        width: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    .window3 {
+        
+        width: inherit;
+        overflow: hidden;
+        height: inherit;
+        display: -webkit-box;
+    }
+    
+    .all-pages-container3 {
+        flex-direction: row;
+        align-items: center;
+        width: 200%;
+        display: flex;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+        justify-content: unset;
+    }
+    .arrow2 {
+        transform: rotateY(180deg);
+        display: flex;
+        height: 8px;
+        width: 45px;
+        overflow: hidden;
+        margin-right:10px;
+        margin-left: 10px;
+        background-image: url(../../../public/__photos/Arrow.svg) ;
+        position:absolute;
+        top:50%;
+        right: 2px;
+        z-index: 1000;
+    }
+    .arrow1 {
+        cursor: pointer;
+        display: flex;
+        height: 8px;
+        width: 45px;
+        margin-right: 10px;
+        overflow: hidden;
+        margin-left: 10px;
+        background-image: url(../../../public/__photos/Arrow.svg) ;
+        position:absolute;
+        top:50%;
+        left: 2px;
+        z-index: 1000;
+    }
+}
+

@@ -1,0 +1,61 @@
+.arrow2 {
+    cursor: pointer;
+    display: none;
+    background-image: url(../../../public/__photos/Arrow.svg) ;
+}
+.arrow1 {
+    cursor: pointer;
+    display: none;
+    background-image: url(../../../public/__photos/Arrow.svg) ;
+
+
+}
+.main-container {
+    background-color: rgb(241, 241, 239);
+}
+
+@media(max-width:799px) {
+    .main-container {
+
+        width: 99.9vw;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 1000px;
+    }
+    .window {
+        height: 100%;
+        width: 100vw;
+        overflow: hidden;
+    }
+    
+    .all-pages-container {
+        height: 100%;
+        width: 200%;
+        display: flex;
+        transition: translate;
+        transition-property: transform;
+        transition-duration: 300ms;
+        transition-timing-function: ease-in-out;
+    }
+    .arrow2 {
+        transform: rotateY(180deg);
+        display: flex;
+        height: 8px;
+        width: 56px;
+        overflow: hidden;
+        margin-right:10px;
+        margin-left: 10px;
+    }
+    .arrow1 {
+        cursor: pointer;
+        display: flex;
+        height: 8px;
+        width: 56px;
+        margin-right: 10px;
+        overflow: hidden;
+        margin-left: 10px;
+    }
+}
+

@@ -1,0 +1,23 @@
+.upper_line {
+    position: absolute;
+    height: 1px;
+    width: 90%;
+    color: black;
+    background-color: black;
+    transform: translate(-50%, -50%) translateY(-50px);
+    left: 50%;
+    right: 50%;
+}
+/* .vertical__line {
+    position: absolute;
+    height: 1px;
+    width: 10vh;
+    color: black;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    transform:rotateZ(90deg) translateX(-7.4vh);
+
+} */
