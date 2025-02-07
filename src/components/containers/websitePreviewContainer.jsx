@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 const StyledWebsitePreviewContainer  = styled.div`
     background-image: url(${(props) => props.bg});
+    filter: brightness(95%);
     background-size: cover;
     background-position: center;
     width: ${props => props.width || '48vw' }; 
