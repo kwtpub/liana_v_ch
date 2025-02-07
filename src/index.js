@@ -9,8 +9,6 @@ const theme = {
     }
 }
 const Global = createGlobalStyle`
-
-/* Подключение GT Sectra Black */
 position: relative;
 
 `

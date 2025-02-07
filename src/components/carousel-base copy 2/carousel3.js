@@ -1,5 +1,4 @@
 import { useEffect, useState, Children, cloneElement} from 'react'
-import {FaChevronLeft, FaChevronRight} from 'react-icons/fa'
 
 import './carousel3.css'
 
@@ -49,7 +48,7 @@ setPages(
 }, [])
     return (
         <div className="main-container3">
-            {/* <img className='arrow1' src="__photos/Arrow.svg" alt="arrow" onClick={handleLeftArrowClick} /> */}
+
             
 
             <div className="window3">
@@ -63,8 +62,7 @@ setPages(
                 >{pages}</div>
             <div className="arrow2" onClick={handleRightArrowClick} ></div>
             </div>
-            
-            {/* <img className='arrow2'src="__photos/Arrow.svg" alt="arrow" onClick={handleRightArrowClick} /> */}
+
 
         </div>
     )

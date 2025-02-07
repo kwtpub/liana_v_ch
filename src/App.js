@@ -1,8 +1,6 @@
 import { HashRouter as Router , Route, Routes } from "react-router";
 import Home from "./Home";
 import ShoppingSupport from "./ShoppingSupport";
-import styled, { createGlobalStyle } from 'styled-components';
-import Header from "./pages/header/header";
 import Contact from "./pages/contact/contact";
 import About from "./pages/about/about";
 import OnlineShoping from "./OnlineShoping";

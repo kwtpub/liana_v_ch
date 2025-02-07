@@ -1,9 +1,7 @@
 import styled from 'styled-components';
 import Title from '../title/Title';
 
-function clickMe() {
-    alert("You clicked me!");
-  }
+
 
 const StyledButton = styled.button`
 background-color: ${props => props.bgColor || '#E54424'};
