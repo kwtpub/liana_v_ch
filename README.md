@@ -41,7 +41,7 @@ This repository contains the code for my personal website built with **React**. 
 Feel free to fork this project, open issues, or submit pull requests. Any feedback or suggestions are welcome!  
 
 📧 **Contact:**  
-For inquiries or collaborations, reach out to me at [your-email@example.com].  
+For inquiries or collaborations, reach out to me at [10.0.kwt@mail.ru].  
 
 ---
 
