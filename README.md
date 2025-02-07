@@ -15,16 +15,6 @@ This repository contains the code for my personal website built entirely with **
 - **React Router** for seamless page navigation  
 - **Framer Motion** (optional) for animations  
 
-📂 **Project Structure:**  
-```
-src/
-├── components/       # Reusable UI components (e.g., Button, Card, Navbar)
-├── pages/            # Page components (e.g., Home, Services, Contact)
-├── styles/           # Global styles and theme configuration
-├── assets/           # Images, icons, and other static files
-├── App.js            # Main application component
-└── index.js          # Entry point
-```
 
 📄 **How to Use:**  
 1. Clone the repository:  
@@ -45,9 +35,6 @@ src/
 - **Scoped Styles**: No class name conflicts.  
 - **Dynamic Theming**: Easily switch between light/dark modes or custom themes.  
 - **CSS-in-JS**: Write styles directly in JavaScript for better component encapsulation.  
-
-📧 **Contact:**  
-For inquiries or collaborations, feel free to reach out to me at [your-email@example.com].  
 
 ---
 
