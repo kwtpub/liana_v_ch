@@ -31,7 +31,7 @@ const PageService = ({textService, ...props}) => {
                                 <h2 className='slogan'>{text.slogan}</h2>
                                 <h3 className='description'>{text.description}</h3>
 
-                                <Button>ПОЗВОНИ МНЕ</Button>
+                                <Button  fontSizeDes={'12px'}>ПОЗВОНИ МНЕ</Button>
                 </div>
                         ) 
                         }

@@ -54,7 +54,7 @@ h2 {
 .description {
     font-weight: 100;
     font-size: calc(10px + 8 * (100vw - 320px) / 880);
-    width: 50%;
+    width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;

@@ -7,7 +7,7 @@ const StyledButton = styled.button`
 background-color: ${props => props.bgColor || '#E54424'};
 border: 0px solid black;
 color: ${props => props.color || 'black'};
-padding: 20px 80px;
+padding: 15px 60px;
 height: auto;
 
 &:hover {
@@ -16,11 +16,11 @@ height: auto;
 `
 
 
-const Button = ({props, children}) => {
+const Button = ({fontSize, fontSizeDes,props, children}) => {
     
     return (
         <StyledButton {...props}>
-            <Title marginBot={'0'} padding={'0'} color={'black'}>{children}</Title>
+            <Title fontSize={fontSize} fontSizeDes={fontSizeDes}  marginBot={'0'} padding={'0'} color={'black'}>{children}</Title>
         </StyledButton>
     );
 };
