@@ -45,7 +45,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Black.ttf') format('truetype');
   font-weight: 900; /* Black */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -57,7 +57,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Black-Italic.ttf') format('truetype');
   font-weight: 900; /* Black */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 /* Подключение GT Sectra Bold */
@@ -70,7 +70,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Bold.ttf') format('truetype');
   font-weight: 700; /* Bold */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -82,7 +82,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Bold-Italic.ttf') format('truetype');
   font-weight: 700; /* Bold */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 /* Подключение GT Sectra Book */
@@ -95,7 +95,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Book.ttf') format('truetype');
   font-weight: 400; /* Book */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -107,7 +107,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Book-Italic.ttf') format('truetype');
   font-weight: 400; /* Book */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 /* Подключение GT Sectra Medium */
@@ -120,7 +120,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Medium.ttf') format('truetype');
   font-weight: 500; /* Medium */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -132,7 +132,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Medium-Italic.ttf') format('truetype');
   font-weight: 500; /* Medium */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 /* Подключение GT Sectra Regular */
@@ -145,7 +145,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Regular.ttf') format('truetype');
   font-weight: 400; /* Regular */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -157,7 +157,7 @@ a {
        url('../../public/__fonts/GtSectra/GT-Sectra-Regular-Italic.ttf') format('truetype');
   font-weight: 400; /* Regular */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 /* Подключение Adobe Garamond Pro */
@@ -170,7 +170,7 @@ a {
        url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Regular.ttf') format('truetype');
   font-weight: 400; /* Regular */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -182,7 +182,7 @@ a {
        url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Italic.ttf') format('truetype');
   font-weight: 400; /* Regular */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -194,7 +194,7 @@ a {
        url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Bold.ttf') format('truetype');
   font-weight: 700; /* Bold */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -206,7 +206,7 @@ a {
        url('../../public/__fonts/adobeGaramodePro/AGaramondPro-BoldItalic.ttf') format('truetype');
   font-weight: 700; /* Bold */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -218,7 +218,7 @@ a {
        url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Semibold.ttf') format('truetype');
   font-weight: 600; /* Semibold */
   font-style: normal;
-  font-display: block;
+  font-display: swap;
 }
 
 @font-face {
@@ -230,7 +230,7 @@ a {
        url('../../public/__fonts/adobeGaramodePro/AGaramondPro-SemiboldItalic.ttf') format('truetype');
   font-weight: 600; /* Semibold */
   font-style: italic;
-  font-display: block;
+  font-display: swap;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
