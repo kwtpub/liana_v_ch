@@ -11,8 +11,9 @@ const StyledService = styled.div`
 
 
 `
-const txtDes = 'LIANA CHIZHOVA'
+const txtDes = 'Услуги'
 
+const titleText = 'LIANA CHIZHOVA'
 
 
 const Service = (props) => {
@@ -20,7 +21,7 @@ const Service = (props) => {
     return (
         <>
             <Header/>
-            <WebsitePreview1 titleColor={'white'} width={'100vw'} height={'60vh'} textAlign={'left'} color={'white'} bg={image} titleText={'Услуги'} descriptionText={txtDes}/>
+            <WebsitePreview1 titleColor={'white'} width={'100vw'} height={'60vh'} textAlign={'left'} color={'white'} bg={image} titleText={titleText} descriptionText={txtDes}/>
             <ServiceLink href={'/'} bg={serviceImage}/>
             <Footer/>
         </>

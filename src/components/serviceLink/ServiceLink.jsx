@@ -12,7 +12,7 @@ const StyledServiceLink = styled.div`
     justify-content: center;
     background-position: center;
     background-size: cover;
-    margin: 1px;
+    margin: 8px;
 `
 
 
@@ -22,7 +22,7 @@ const ServiceLink = (props) => {
     return (
         <>
             <StyledServiceLink {...props}>
-                <Title href={props.href}marginBot={'0px'} color={'white'}>ОНЛАЙН ШОПИНГ</Title>
+                <Title display={'block'} href={props.href}   marginBot={'0px'} color={'white'}>ОНЛАЙН ШОПИНГ</Title>
             </StyledServiceLink>
         </>
     );
