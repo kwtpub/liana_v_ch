@@ -135,55 +135,7 @@ a {
   font-display: swap;
 }
 
-/* Подключение GT Sectra Regular */
-@font-face {
-  font-family: 'GT Sectra';
-  src: url('../../public/__fonts/GtSectra/GT-Sectra-Regular.woff2') format('woff2'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular.woff') format('woff'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular.eot') format('eot'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
-  font-display: swap;
-}
 
-@font-face {
-  font-family: 'GT Sectra';
-  src: url('../../public/__fonts/GtSectra/GT-Sectra-Regular-Italic.woff2') format('woff2'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular-Italic.woff') format('woff'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular-Italic.eot?#iefix') format('embedded-opentype'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular-Italic.eot') format('eot'),
-       url('../../public/__fonts/GtSectra/GT-Sectra-Regular-Italic.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: italic;
-  font-display: swap;
-}
-
-/* Подключение Adobe Garamond Pro */
-@font-face {
-  font-family: 'Adobe Garamond Pro';
-  src: url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Regular.woff2') format('woff2'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Regular.woff') format('woff'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Regular.eot?#iefix') format('embedded-opentype'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Regular.eot') format('eot'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Regular.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Adobe Garamond Pro';
-  src: url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Italic.woff2') format('woff2'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Italic.woff') format('woff'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Italic.eot?#iefix') format('embedded-opentype'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Italic.eot') format('eot'),
-       url('../../public/__fonts/adobeGaramodePro/AGaramondPro-Italic.ttf') format('truetype');
-  font-weight: 400; /* Regular */
-  font-style: italic;
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'Adobe Garamond Pro';
