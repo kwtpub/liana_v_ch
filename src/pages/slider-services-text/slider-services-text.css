@@ -98,17 +98,16 @@
 
 
 @media(max-width: 799px) { 
+    .slider-services-text__underLine {
+        display: none;
+    }
+
+
+
+
     .slider-services-text__uvertical-line {
-        position: absolute;
-        height: 1px;
-        width: 5vh;
-        color: black;
-        background-color: black;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        transform:rotateZ(-90deg) translateX(2.5vh);
+
+        display: none;
     }
 
 
