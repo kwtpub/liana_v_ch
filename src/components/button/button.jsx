@@ -19,11 +19,11 @@ margin-left: ${props => props.marginLeft || '0px'};
 `
 
 
-const Button = ({fontSize, fontSizeDes,props, children}) => {
+const Button = ({href, fontSize, fontSizeDes, props, children}) => {
     
     return (
         <StyledButton {...props}>
-            <Title fontSize={fontSize} fontSizeDes={fontSizeDes}  marginBot={'0'} padding={'0'} color={'black'}>{children}</Title>
+            <Title href={href} fontSize={fontSize} fontSizeDes={fontSizeDes}  marginBot={'0'} padding={'0'} color={'black'}>{children}</Title>
         </StyledButton>
     );
 };

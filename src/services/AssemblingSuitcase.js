@@ -4,6 +4,8 @@ import WebsitePreview1 from "../pages/website-preview-1/website-preview-1";
 import Header from "../pages/header/header";
 import Footer from "../pages/footer/footer-1";
 import ProcessService from "../components/process-service/ProcessService";
+import ButtonContainer from "../components/button/ButtonContainer";
+import Button from "../components/button/button";
 
 const title = 'СТАНЬТЕ УВЕРЕННЕЕ, ЧЕМ КОГДА-ЛИБО'
 const subtitle1 = 'Сборка'
@@ -17,6 +19,9 @@ const AssemblingSuitcase = (props) => {
         <WebsitePreview1 bg={image}/>
         <WebsitePreview3 title={title} subtitle={subtitle1} subtitle2={subtitle2} description={description}/>
         <ProcessService/>
+        <ButtonContainer>
+            <Button href={'/'}>Записаться</Button>
+        </ButtonContainer>
         <Footer/>
         </>
     );

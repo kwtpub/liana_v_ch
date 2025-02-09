@@ -7,6 +7,8 @@ import image from '../img/img1.jpg'
 import '../styles/App.css';
 import Footer from "../pages/footer/footer-1";
 import ProcessService from "../components/process-service/ProcessService";
+import ButtonContainer from "../components/button/ButtonContainer";
+import Button from "../components/button/button";
 
 
 const title = 'СТАНЬТЕ УВЕРЕННЕЕ, ЧЕМ КОГДА-ЛИБО'
@@ -24,6 +26,9 @@ function ShoppingSupport() {
             <WebsitePreview3 title={title} subtitle={subtitle1} subtitle2={subtitle2} description={description}/>
             </div>
             <ProcessService/>
+            <ButtonContainer>
+                <Button href={'/'}>Записаться</Button>
+            </ButtonContainer>
             <Footer/>
         </div>
 
