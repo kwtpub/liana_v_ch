@@ -9,6 +9,7 @@ import ServiceLink from './components/serviceLink/ServiceLink';
 import serviceImage from './img/img5.jpg'
 import serviceImage2 from './img/img1.jpg'
 import serviceImage3 from './img/img2.jpg'
+import SliderServicesText from './pages/slider-services-text/slider-services-text';
 
 const StyledService = styled.div`
     display: grid;
@@ -40,14 +41,15 @@ const Service = (props) => {
             <WebsitePreview1 paddingLeftMob={'0px'} paddingRightMob={'0px'} minHeightMob={'680px'} minHeight={'680px'} padding={'0px'}  titleColor={'white'} widthPh={'99vw'} width={'99vw'} heightMob={'50vh'} height={'30vh'} textAlign={'center'} color={'white'} bg={image} titleText={titleText} descriptionText={txtDes}/>
             <StyledService>
                 <ServiceLink text={'Онлайн шопинг'} href={'/#/onlineshoping'} bg={serviceImage}/>
-                <ServiceLink text={'Шопинг сопровождение'} href={'/#/shoppingsuppot'} bg={serviceImage2}/>
-                <ServiceLink text={'Разбор гардероба'} href={'/'} bg={serviceImage3}/>
-                <ServiceLink text={'Экспресс подсказка'} href={'/'} bg={serviceImage3}/>
-                <ServiceLink text={'Сбор чемодана'} href={'/'} bg={serviceImage3}/>
-                <ServiceLink text={'Образ на мероприятие'} href={'/'} bg={serviceImage3}/>
-                <ServiceLink text={'Все включено'} href={'/'} bg={serviceImage3}/>
-                <ServiceLink text={'Стилизация фотосессии'} href={'/'} bg={serviceImage3}/>
+                <ServiceLink text={'Шопинг сопровождение'} href={'/#/shoppingsupport'} bg={serviceImage2}/>
+                <ServiceLink text={'Разбор гардероба'} href={'/#/wardrobeclearance'} bg={serviceImage3}/>
+                <ServiceLink text={'Экспресс подсказка'} href={'/#/expresstip'} bg={serviceImage3}/>
+                <ServiceLink text={'Сбор чемодана'} href={'/#/assemblingsuitcase'} bg={serviceImage3}/>
+                <ServiceLink text={'Образ на мероприятие'} href={'/#/lookfortheevent'} bg={serviceImage3}/>
+                <ServiceLink text={'Все включено'} href={'/#/all'} bg={serviceImage3}/>
+                <ServiceLink text={'Стилизация фотосессии'} href={'/#/stylizationphotoshoots'} bg={serviceImage3}/>
             </StyledService>
+            <SliderServicesText/>
             <Footer/>
         </>
     );

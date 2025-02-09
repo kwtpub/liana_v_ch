@@ -50,7 +50,7 @@ const Header = () => {
     const[open, setOpen] = useState(false)
 
     const textMenu = [{text: "Произвольный текст лала я играю на гармошке у прохожих на видуу к сожаленью день рождения только раз в году"}]
-    const items = [{href: '/#/service', value:"Услуги", icon:"anchor"},{value:"Обо мне", href: '/#/about', icon:"anchor"}, {value:"Контакты", href: '/#/contact', icon:"anchor"}]
+    const items = [{href: '/#/service', value:"Услуги", icon:"anchor"},{value:"Обо мне", href: '/#/about', icon:"anchor"}]
     const handleMenuClick = (event) => {
         event.preventDefault();
       };
@@ -67,7 +67,7 @@ const Header = () => {
                 <div className="header__navigarion-bar-button">
                     <a href='/#/service'> <h2>УСЛУГИ</h2></a>
                     <a href='/#/about'> <h2>ОБО МНЕ</h2></a>
-                    <a href='/#/contact'><h2>КОНТАКТЫ</h2></a>
+                    <a href='/#/contact'><h2></h2></a>
                 </div>
 
                 <StyledBurger open={open} onClick={() => setOpen(!open)}>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const StyledTitle = styled.h1`
+const StyledTitle = styled.a`
 
 color:${props => props.color || '#E54424'};
 
@@ -14,7 +14,6 @@ margin-bottom: ${props => props.marginBot || "32px"};
 word-wrap: break-word;
 display: ${props => props.display || 'inline'}; 
 height: ${props => props.height || 'auto'};
-width: ${props => props.width || 'auto'};
 
 @media ${"(min-width:1700px)"} {
     font-size: clamp(15px, 4em, );
@@ -30,7 +29,7 @@ width: ${props => props.width || 'auto'};
 const Title = (props) => {
     return (
 
-        <a href={props.href}><StyledTitle {...props}/></a>
+    <StyledTitle {...props}  href={props.href}/>
     );
 };
 export default Title;

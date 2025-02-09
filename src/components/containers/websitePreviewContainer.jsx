@@ -13,6 +13,10 @@ const StyledWebsitePreviewContainer  = styled.div`
     background-size: cover;
     background-position: center;
     margin:${props => props.margin || '0.5vw' }; 
+    margin-top: ${props => props.marginTop};
+    margin-bottom: ${props => props.marginBot};
+    margin-left: ${props => props.marginLeft};
+    margin-right: ${props => props.marginRight};
     display: inline-block;
     overflow: hidden;
     aspect-ratio: ${props => props.aRatio};
@@ -22,6 +26,10 @@ const StyledWebsitePreviewContainer  = styled.div`
         height: ${props => props.heightMob || '100vh' };
         min-height: ${props => props.minHeightMob || '980px' };  
         max-height:${props => props.maxHeightMob || ' 1300px' };
+        margin-top: ${props => props.marginTopMob};
+        margin-bottom: ${props => props.marginBotMob};
+        margin-left: ${props => props.marginLeftMob};
+        margin-right: ${props => props.marginRightMob};
     }
 `;
 

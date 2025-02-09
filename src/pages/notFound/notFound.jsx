@@ -20,7 +20,7 @@ const NotFound = (props) => {
     return (
         <>
         <StylednotFound onClick={() => window.history.back()} {...props}>
-                <Title >Извините, данная страница находиться в разработке...</Title>
+                <Title  width ={'80vw'} marginBot={'50px'}>Извините, данная страница находиться в разработке...</Title>
                 <Button>← Назад</Button>
         </StylednotFound>
         </>
