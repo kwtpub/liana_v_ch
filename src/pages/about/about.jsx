@@ -28,12 +28,13 @@ const About = (props) => {
         <>
         <StyledAbout>
         <Header/>
-        <ContainerMain>
+        <NotFound/>
+        {/* <ContainerMain>
             <WebsitePreview3  paddingRightMob={'0px'} paddingLeftMob={'0px'} marginTopMob={'100px'} textAlign={'center'} subtitle2={'Stylist'} subtitle={'liana_v_ch'} />
             <WebsitePreview1 color={'white'} descriptionText={'bla bla'} bg={image}/>
-        </ContainerMain>
+        </ContainerMain> */}
         </StyledAbout>
-        <Footer/>
+        
         </>
     );
 };
