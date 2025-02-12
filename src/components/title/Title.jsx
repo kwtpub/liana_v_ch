@@ -14,7 +14,7 @@ margin-bottom: ${props => props.marginBot || "32px"};
 word-wrap: break-word;
 display: ${props => props.display || 'inline'}; 
 height: ${props => props.height || 'auto'};
-
+z-index: 3;
 @media ${"(min-width:1700px)"} {
     font-size: clamp(15px, 4em, );
 }

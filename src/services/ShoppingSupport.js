@@ -3,7 +3,7 @@ import Header from "../pages/header/header";
 import WebsitePreview1 from "../pages/website-preview-1/website-preview-1";
 import WebsitePreview3 from "../pages/website-preview-3/website-preview-3";
 
-import image from '../img/img1.jpg'
+import image from '../img/IMG_0300.jpg'
 import '../styles/App.css';
 import Footer from "../pages/footer/footer-1";
 import ProcessService from "../components/process-service/ProcessService";

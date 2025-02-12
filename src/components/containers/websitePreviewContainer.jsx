@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StyledWebsitePreviewContainer  = styled.div`
     background-image: url(${(props) => props.bg});
-    filter: brightness(95%);
+    position: relative;
     background-size: cover;
     background-position: center;
     width: ${props => props.width || '48vw' }; 
@@ -30,6 +30,16 @@ const StyledWebsitePreviewContainer  = styled.div`
         margin-bottom: ${props => props.marginBotMob};
         margin-left: ${props => props.marginLeftMob};
         margin-right: ${props => props.marginRightMob};
+    }
+    &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: ${props => props.blurColor ||  'rgba(255,255,255,0.0)' };
+        z-index: 2;
     }
 `;
 

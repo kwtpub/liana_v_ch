@@ -8,7 +8,7 @@ const StyledSubtitle = styled.h1`
     line-height: 1.4em;
     letter-spacing: 3px;
     color: ${props => props.color || 'black'};
-
+    z-index: 3;
     @media ${"(min-width:1700px)"} {
     font-size: clamp(10px, 2em, 30px);
 }

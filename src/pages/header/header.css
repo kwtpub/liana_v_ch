@@ -35,7 +35,7 @@ header {
     font-size:calc(20px + 8 * (100vw - 320px) / 880);
     line-height: 1.4em;
     letter-spacing: 3px;
-} 
+    } 
 
 .header__navigarion-bar h2 {
     font-family: "Karla";

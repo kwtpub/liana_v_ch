@@ -15,19 +15,19 @@ import { Carousel } from './components/carousel-base/carousel';
 import SliderServicesText from './pages/slider-services-text/slider-services-text.jsx';
 import Footer from './pages/footer/footer-1.jsx';
 
-import image from './img/img6.jpg';
-import image2 from './img/img4.jpg';
-import image3 from './img/img2.jpg';
-import image4 from './img/img3.jpg';
+import image from './img/IMG_0296.jpg';
+import image2 from './img/IMG_0288.jpg';
+import image3 from './img/IMG_0300.jpg';
+import image4 from './img/IMG_0298.jpg';
 const txtDes = 'Я СТИЛИСТ И ЯРКИЙ ПРИМЕР ТОГО, ЧТО НЕ ВАЖНО СКОЛЬКО ВАМ ЛЕТ - ВЫ ВСЕГДА МОЖЕТЕ ИЗМЕНИТЬ СВОЮ ЖИЗНЬ.';
 const txtTitle = 'СТИЛЬ, ПОВСЕДНЕВНЫЙ';
 
 function Home() {
     return (
     <div className="Home">
-      <Header/>
+      <Header />
       <div className='containerMain'>
-          <WebsitePreview1 height={'80vh'} bg={image} descriptionText={txtDes} titleText={txtTitle}/>
+          <WebsitePreview1 blurColor={'rgba(255,255,255,0.1)'} height={'80vh'} bg={image} descriptionText={txtDes} titleText={txtTitle}/>
           <WebsitePreview2 bg={image2}/>
       </div>
           <UpperLine/>

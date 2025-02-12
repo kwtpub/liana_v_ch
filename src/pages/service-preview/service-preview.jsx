@@ -2,11 +2,10 @@ import React from 'react';
 import './service-preview.css'
 import styled from 'styled-components';
 import WebsitePreviewContainer from '../../components/containers/websitePreviewContainer';
-import image from './ModelGirl.webp'
 import Button from '../../components/button/button';
 
 const StyledImg = styled.div`
-    background-image: url(${props => props.image || image});
+    background-image: url(${props => props.image});
     background-size: cover;
     background-position: center;
     width: 90%;
@@ -31,7 +30,7 @@ const PageService = ({textService, ...props}) => {
                                 <h2 className='slogan'>{text.slogan}</h2>
                                 <h3 className='description'>{text.description}</h3>
 
-                                <Button marginBot={'30px'}  fontSizeDes={'12px'}>ПОЗВОНИ МНЕ</Button>
+                                <Button marginBot={'30px'}  fontSizeDes={'12px'}>Подробнее</Button>
                 </div>
                         ) 
                         }
