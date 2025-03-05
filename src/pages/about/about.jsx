@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 import NotFound from '../notFound/notFound';
-import WebsitePreview1 from '../website-preview-1/website-preview-1';
+// import WebsitePreview1 from '../website-preview-1/website-preview-1';
 import Header from '../header/header';
-import Button from '../../components/button/button';
-import WebsitePreview3 from '../website-preview-3/website-preview-3'
-import image from '../../img/img3.jpg'
-import ContainerMain from '../../components/containers/containerMain';
-import ServicesTextBox from '../services-text-box/services-text-box'
-import Footer from '../footer/footer-1';
-import Upper_line from '../services-text-box/UpperLine';
+// import Button from '../../components/button/button';
+// import WebsitePreview3 from '../website-preview-3/website-preview-3'
+// import image from '../../img/img3.jpg'
+// import ContainerMain from '../../components/containers/containerMain';
+// import ServicesTextBox from '../services-text-box/services-text-box'
+// import Footer from '../footer/footer-1';
+// import Upper_line from '../services-text-box/UpperLine';
 const StyledAbout = styled.div`
     display: flex;
     align-items: center;
@@ -22,7 +22,7 @@ const txtDes = 'Stylist'
 
 
 
-const About = (props) => {
+const About = (props) => { 
     
     return (
         <>

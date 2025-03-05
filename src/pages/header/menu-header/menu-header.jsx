@@ -1,6 +1,6 @@
 import React from 'react';
 import './menu-header.css'
-import Title from '../../../components/title/Title';
+// import Title from '../../../components/title/Title';
 
 const Menu = ({items, textMenu, open , setOpen, items2}) => {
     return (
