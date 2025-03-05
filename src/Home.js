@@ -15,7 +15,7 @@ import { Carousel } from './components/carousel-base/carousel';
 import SliderServicesText from './pages/slider-services-text/slider-services-text.jsx';
 import Footer from './pages/footer/footer-1.jsx';
 
-import image from './img/IMG_0296.jpg';
+import image from './img/IMG_0292.jpg';
 import image2 from './img/IMG_0288.jpg';
 import image3 from './img/IMG_0300.jpg';
 import image4 from './img/IMG_0298.jpg';
